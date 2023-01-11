@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>map version 1</title>
+
+</head>
+<body>
+<h1> Array Map V1</h1>
+<pre>
+<script>
+
+
+      var arr=new Array(5);
+
+document.writeln("Enter 5elements:");
+
+for (i=0;i<4;i++)
+{
+ var v1= parseInt(prompt("enter "+i+" number"));
+arr[i]=v1;
+}
+
+
+function fun1(x)
+{
+ return(x*x);
+}
+
+document.write(arr.map(fun1));
+
+</script>
+</pre>
+</body>
+</html>
