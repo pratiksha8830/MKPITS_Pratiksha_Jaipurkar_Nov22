@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>reduce version 3</title>
+</head>
+<body>
+<pre>
+<script>
+ var arr=new Array (5),sum=0;
+document.write("enter 5 number");
+for(i=0;i<=4;i++)
+{ 
+var v1=parseInt(prompt("enter "+i+"number"));
+arr[i]=v1;
+}
+var a=arr.reduce((sum,x)=>
+{
+return(sum+x);
+});
+
+document.write(a);
+</script>
+</pre>
+</body>
+</html>
